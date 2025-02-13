@@ -31,7 +31,8 @@ int main() {
 
             // Добавляем в new_line строку + длина строки
             string word = line.substr(start, end - start); // сохраняем наше слово до разделителя
-            new_line += word + to_string(word.length()); // добавляем в new_line слово+длина
+            if (!word.empty()) // проверка на то, что слово не "пустое"
+                new_line += word + to_string(word.length()); // добавляем в new_line слово+длина
 
             // Добавляем разделитель между словами, если он существует
             if (end != -1) {
