@@ -1,0 +1,21 @@
+Тестовые данные:
+
+Тест 1:
+Ввод строки - one,two,free,four,five,six,seven
+Ввод разделителя - ,
+
+Вывод - one3,two3,free4,four4,five4,six3,seven5
+
+Тест 2:
+Ввод строки - fiveFIVEfiveFIVe
+Ввод разделителя - ;
+
+Вывод - fiveFIVEfiveFIVe16
+
+Тест 3:
+Ввод строки - asd asDasd asd asdasd sadesad asd asewd sdaweqwd
+Ввод разделителя - s
+
+Вывод - a1sd a3sDa2sd a3sd a3sda2sd 2sade3sad a4sd a3sewd 4sdaweqwd7
+
+Программа неккоректно работает, если строка полностью состоит из символов разделителей или, если она начинается или заканчивается символом разделителя.
